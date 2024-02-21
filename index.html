@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Набор файлов для руководителя</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <button class="modal-trigger">
+            Кликни
+        </button>
+    </div>
+    
+    <div class="modal">
+        <div class="popup">
+            <div class="close-button">
+                <img src="images/Close.png" alt="закрыть">
+            </div>
+
+            <div class="popup__content">
+                <div class="popup__images">
+                    <h2>Получите набор файлов для руководителя</h2>
+                    <div class="files">
+                        <img src="images/doc-icon.png" alt="иконка файла doc">
+                        <img src="images/xls-icon.png" alt="иконка файла xls">
+                        <img src="images/pdf-icon.png" alt="иконка файла pdf">
+                        <img src="images/pdf-icon.png" alt="иконка файла pdf">
+                        <img src="images/pdf-icon.png" alt="иконка файла pdf">
+                        <img src="images/pdf-icon.png" alt="иконка файла pdf">
+                        <img src="images/pdf-icon.png" alt="иконка файла pdf">
+                    </div>
+                    <img src="images/file.png" alt="изображение смартфон и набор книг">
+                </div>
+
+                <div class="popup__form">
+                    <form action="">
+                        
+                        <label for="email">Введите Email для получения файлов:</label>
+                        <input type="email" id="email" placeholder="E-mail">
+                    
+                        <label for="phone">Введите телефон для подтверждения доступа:</label>
+                        <input type="tel" id="phone" placeholder="+7 (000) 000-00-00" required>
+                        <div class="form-button">
+                            <button onclick="event.preventDefault()" class="submit">
+                                Скачать файлы
+                                <img src="images/pointer.png" alt="иконка указателя">
+                            </button>
+                        </div>
+                        
+                        <div class="formats">
+                            <span class="format">PDF 4,7 MB</span>
+                            <span class="format">DOC 0,8 MB</span>
+                            <span class="format">XLS 1,2 MB</span>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
